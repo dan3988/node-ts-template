@@ -3,7 +3,9 @@
   "version": "1.0.0",
   "description": "",
   "main": "./lib/main.js",
-  "scripts": {},
+  "scripts": {
+    "prepack": "DEL /S /Q lib & npx tsc"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/dan3988/node-ts.git"
